@@ -29,7 +29,7 @@ Transform:
   m_GameObject: {fileID: 1849986203648939753}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 11.28, y: 1.92, z: 9.71}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_Children:
   - {fileID: 1849986203648641739}
   - {fileID: 4623397700662723085}
@@ -185,18 +185,18 @@ MonoBehaviour:
   m_WalkSpeed: 4
   m_RunSpeed: 8
   m_RunstepLenghten: 1
-  m_StickToGroundForce: 5
-  m_GravityMultiplier: 1
+  m_StickToGroundForce: 10
+  m_GravityMultiplier: 2
   m_MouseLook:
-    XSensitivity: 5
-    YSensitivity: 5
+    XSensitivity: 4
+    YSensitivity: 4
     clampVerticalRotation: 1
     MinimumX: -90
     MaximumX: 90
     smooth: 0
     smoothTime: 5
     lockCursor: 1
-  m_UseFovKick: 0
+  m_UseFovKick: 1
   m_FovKick:
     Camera: {fileID: 0}
     originalFov: 0
@@ -265,7 +265,7 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
     VerticaltoHorizontalRatio: 1
-  m_StepInterval: 4
+  m_StepInterval: 10
   m_FootstepSounds:
   - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
   - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
